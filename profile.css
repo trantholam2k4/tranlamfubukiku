@@ -1,0 +1,73 @@
+/* Reset some default styles */
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Set a background color and font for the body */
+  body {
+    background-color: #f4f4f4;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Style the header */
+  .header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .header h1 {
+    font-size: 2em;
+  }
+  
+  .header #name {
+    color: #ffd700; /* Golden yellow color for the name */
+  }
+  
+  /* Style the about section */
+  .about {
+    padding: 20px 0;
+  }
+  
+  .about ul {
+    list-style-type: none;
+  }
+  
+  .about li {
+    margin-bottom: 10px;
+  }
+  
+  /* Style the skills section */
+  .skills {
+    background-color: #fff;
+    padding: 20px 0;
+  }
+  
+  .skills ul {
+    list-style-type: none;
+  }
+  
+  .skills li {
+    margin-bottom: 10px;
+  }
+  
+  /* Style the contact section */
+  .contact {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .contact a {
+    color: #ffd700; /* Golden yellow color for links */
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .contact a:hover {
+    text-decoration: underline;
+  }
+  
